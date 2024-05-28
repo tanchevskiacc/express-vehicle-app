@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "66558eef891a153eb44a92ea"
+  },
+  "make": "Bova Magiq",
+  "model": "MHD 131-460",
+  "year": "2010",
+  "type": "bus",
+  "eco": "Euro 03",
+  "gearbox": "manual",
+  "fuel": "diesel",
+  "vin": "11111111111111111",
+  "seats": 8,
+  "extras": [
+    "_21313123",
+    "_34535465456"
+  ],
+  "isPublished": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66558f70891a153eb44a92ed"
+  },
+  "make": "Mercedes",
+  "model": "Mago",
+  "year": "2020",
+  "type": "microbus",
+  "eco": "Euro 06",
+  "gearbox": "auto",
+  "fuel": "diesel",
+  "vin": "12497015342685572",
+  "seats": 8,
+  "extras": [
+    "_21313123"
+  ],
+  "isPublished": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66558fa7891a153eb44a92ef"
+  },
+  "make": "Peugeot",
+  "model": "206",
+  "year": "2001",
+  "type": "car",
+  "eco": "Euro 03",
+  "gearbox": "manual",
+  "fuel": "diesel",
+  "vin": "73498039915743094",
+  "seats": 5,
+  "extras": [
+    "_21313123",
+    "_34535465456"
+  ],
+  "isPublished": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66558fdf891a153eb44a92f1"
+  },
+  "make": "Peugeot",
+  "model": "508",
+  "year": "2017",
+  "type": "car",
+  "eco": "Euro 06",
+  "gearbox": "auto",
+  "fuel": "diesel",
+  "vin": "50170023135414679",
+  "seats": 5,
+  "extras": [
+    "_21313123",
+    "_34535465456"
+  ],
+  "isPublished": true,
+  "__v": 0
+}]
