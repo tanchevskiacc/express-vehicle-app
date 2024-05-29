@@ -37,7 +37,7 @@ To run tests, run the following command
 ```
 ## Generate JWT
 
-Use these credentials to authenticate and receive an **accessToken**. You can authenticate as with admin or user privileges.
+Use these credentials to authenticate and obtain an access token. You can authenticate with both administrator and user privileges.
 
 ```javascript
 {
