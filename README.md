@@ -1,7 +1,7 @@
 
-# Restfull API with Express JS
+# REST API with Express JS & MongoDB
 
-This project was created to apply fundamental knowledge of developing REST API with Express JS
+This project was created to apply fundamental knowledge of developing REST API with Express JS & MongoDB
 
 
 ## Lessons Learned
@@ -9,39 +9,35 @@ This project was created to apply fundamental knowledge of developing REST API w
 Developing this project was partially inspired by [The Complete Node.js Course](https://members.codewithmosh.com/courses/enrolled/293204). This project is simply a practical preparation for developing Express JS application.
 
 
-## Run Locally
+## Installation
 
-Clone the project
+Setting Up the Project
 
 ```bash
   git clone https://github.com/tanchevskiacc/express-vehicle-app.git
 ```
-
-Go to the project directory
-
-```bash
-  cd express-vehicle-app
-```
-
 Install dependencies
 
 ```bash
+  cd express-vehicle-app
   npm install
 ```
 
-Start the server
+## Running Server
+To run server, run the following command
 
 ```bash
   npm start
 ```
 
-Start the tests
+To run tests, run the following command
 
 ```bash
   npm test
 ```
-
 ## Generate JWT
+
+Use these credentials to authenticate and receive an **accessToken**. You can authenticate as with admin or user privileges.
 
 ```javascript
 {
@@ -52,8 +48,10 @@ Start the tests
 
 ## Auth header
 
+This is the header that need to be send to each route.
+
 ```
-x-auth-token
+x-auth-token: your.access.token
 ```
 
 ## Postman
@@ -61,7 +59,7 @@ Import all collections from
 ```
 /export/collections/postman
 ```
-**x-auth-token** header is automatically added to each Postman collection. To update the header value, you must first execute the Auth endpoint to get the accessToken and then go to the "Pre-request Script" at collection level and put the new value there.
+**x-auth-token** header is automatically added to each Postman collection. To update the header value, you must first execute the Auth endpoint to get the accessToken and then go to the "Pre-request Script" at each collection level and put the new access token value.
 ## Features
 
 - Authentication with JWT
