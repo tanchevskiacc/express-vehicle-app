@@ -25,6 +25,9 @@ class CustomError extends Error {
             case 405:
                 msg = 'Method Not Allowed';
                 break;
+            case 500:
+                msg = 'Internal Server Error';
+                break;
             default:
                 msg = 'Unrecognized Error';
                 break;
